@@ -28,4 +28,4 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build and deploy images
-      run: sh build.sh ${{ github.event.inputs.version }}
+      run: bash build.sh ${{ github.event.inputs.version }}
