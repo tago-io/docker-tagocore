@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM debian:bullseye
 
 ARG TAGOCORE_VERSION
 ARG TARGETPLATFORM
