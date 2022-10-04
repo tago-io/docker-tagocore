@@ -28,7 +28,7 @@ See: https://tagocore.com
 
 ```dockerfile
 # specify the base image with your desired version tagoio/tagocore:<version>
-FROM tagoio/tagocore:0.6
+FROM tagoio/tagocore:0.7
 ```
 
 You can then build and run the Docker image:
